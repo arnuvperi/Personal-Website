@@ -1,0 +1,70 @@
+.gradient-background {
+  background: linear-gradient(300deg, #1D5D9B, #75C2F6, #F4D160, #FBEEAC);
+  /* background: linear-gradient(300deg, #241468, #EA1179, #F79BD3, #9F0D7F);*/
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.rounding{
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.headshot-img {
+  border-radius: 0.75rem;
+  height: 300px;
+}
+
+.project-img{
+  height: 500px;
+  border-radius: 0.75rem;
+}
+
+.card{
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.card:hover{
+   transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.nav-pills > li > a.active {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.nav-pills > li > a:hover {
+  color: #ffffff !important;
+}
+
+.black{
+  color: #000000;
+}
+
+.projectlink{
+  text-decoration: none;
+}
